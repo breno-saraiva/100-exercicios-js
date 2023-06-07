@@ -1,9 +1,7 @@
-let a = 1
-let b = 1
+let n1 = parseInt(prompt("digite o primeiro número da contagem: "))
+let n2 = parseInt(prompt("digite o último número da contagem: "))
+let i = parseInt(prompt("digite o incremento: "))
 
-for(i = 1; i <=10 ; i++ ) {
-    console.log(a)
-    let cont = a + b
-    a = b
-    b = cont
+for (x = n1; x <= n2; x = x + i) {
+    console.log(x)
 }
